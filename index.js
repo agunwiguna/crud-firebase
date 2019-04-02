@@ -1,10 +1,11 @@
+//sesuaikan dengan konfigurasi dari firebase
 var config = {
-    apiKey: "AIzaSyBOpL3JpHt59FqdquBmXGjxXGf8GM2zt9Q",
-    authDomain: "resepku-d3b84.firebaseapp.com",
-    databaseURL: "https://resepku-d3b84.firebaseio.com",
-    projectId: "resepku-d3b84",
-    storageBucket: "resepku-d3b84.appspot.com",
-    messagingSenderId: "473138668253"
+    apiKey: "YOU API KEY", //you api key
+    authDomain: "", //you authdomain
+    databaseURL: "", //you database url
+    projectId: "", //you project id
+    storageBucket: "", //you storage
+    messagingSenderId: "" //you messaging
 };
 firebase.initializeApp(config);
 
